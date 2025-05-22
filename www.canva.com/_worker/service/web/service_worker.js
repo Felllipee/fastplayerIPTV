@@ -1,0 +1,10 @@
+self['__canva_public_path__'] = 'https:\/\/static.canva.com\/web/';
+self['bootstrap'] = JSON.parse('{"page":{"A?":"B","A":{"A?":"C","b":"https://dfe5e84dbc214418801081ab37e58da5@o13855.ingest.sentry.io/5546683","c":0.2,"f":false,"g":"A","i":[],"j":{"A":true},"k":{"A":false,"B":100,"C":30,"D":10},"l":[],"m":0.1},"H":"A","K":"O","L":"O","G":"A","n":"N","o":"N","l":true,"m":true,"R":30000,"T":true,"e":false,"U":false,"V":"20250520-22-8ef6f43","Z":{"A?":"A","E":false,"F":5000,"G":20,"H":2,"I":false,"J":0.0,"K":0.01,"M":"web","P":false,"S":false,"T":false,"U":false,"V":false,"W":[],"a":"service_worker","b":"https://telemetry.canva.com/v1/traces","c":"20250520-22-8ef6f43","e":"prod","i":"web"},"j":1.0E-4,"k":30000,"d":false,"i":{"A":"Chrome","B":136},"a":"https://static.canva.com/web"},"telemetryService":{"A?":"A","E":false,"F":5000,"G":20,"H":2,"I":false,"J":0.0,"K":0.01,"M":"web","P":false,"S":false,"T":false,"U":false,"V":true,"W":["us","it"],"a":"service_worker","b":"https://telemetry.canva.com/v1/traces","c":"20250520-22-8ef6f43","e":"prod","i":"web"},"errorService":{"A?":"C","b":"https://dfe5e84dbc214418801081ab37e58da5@o13855.ingest.sentry.io/5546683","c":0.2,"f":false,"g":"A","i":[],"j":{"A":true},"k":{"A":false,"B":100,"C":30,"D":10},"l":[],"m":0.1},"release":"20250520-22-8ef6f43"}');
+importScripts("https:\/\/static.canva.com\/static\/lib\/sentry\/7.16.0.min.js");
+Sentry.init({
+    "dsn": "https:\u002F\u002Fdfe5e84dbc214418801081ab37e58da5@o13855.ingest.sentry.io\u002F5546683",
+    "release": "20250520-22-8ef6f43",
+    "environment": "prod"
+});
+Sentry.setTag("initLocation", "html");
+importScripts('https://static.canva.com/web/24ef4bf74cf33b74.runtime.js', 'https://static.canva.com/web/411de7fe679f1413.5a9ync.vendor.js', 'https://static.canva.com/web/hjfept.955e9aaed949d93a.js', 'https://static.canva.com/web/1260036a051c9e82.js');
